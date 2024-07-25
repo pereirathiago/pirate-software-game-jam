@@ -1,0 +1,428 @@
+fileFormatVersion: 2
+guid: 441466a23fa72f24fb5a3f0648095f78
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OptimizedBuildings_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 345
+        width: 120
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -43, y: -51.5}
+        - {x: -43, y: -17.5}
+        - {x: 42, y: -17.5}
+        - {x: 42, y: -51.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094d8676cbddf2c4f81be7dcdf8ef867
+      internalID: 571688106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptimizedBuildings_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 348
+        width: 110
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -48, y: -49}
+        - {x: -48, y: -33}
+        - {x: 47, y: -33}
+        - {x: 47, y: -49}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ded79d091858b43b05fd83c2d868e5
+      internalID: 1451507150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptimizedBuildings_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 457
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -20, y: -7}
+        - {x: -20, y: -1}
+        - {x: 19, y: -1}
+        - {x: 19, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c325826e0dfa864ba582aa52a0334ff
+      internalID: -743153305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptimizedBuildings_3
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 459
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: -10}
+        - {x: -11, y: -3}
+        - {x: 24, y: -3}
+        - {x: 24, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac862cfa6bc288445af7736f691116d8
+      internalID: -1345083685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptimizedBuildings_4
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 359
+        width: 104
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -49, y: -26}
+        - {x: -49, y: -8}
+        - {x: 48, y: -8}
+        - {x: 48, y: -26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5d8ab4c840ac74c999a08b1db3e624
+      internalID: 909138939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptimizedBuildings_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 148
+        width: 104
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -48, y: -61}
+        - {x: -48, y: -46}
+        - {x: 49, y: -46}
+        - {x: 49, y: -61}
+      - - {x: -14, y: -82}
+        - {x: -14, y: -81}
+        - {x: 15, y: -81}
+        - {x: 15, y: -82}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950aff7e0bc53c74f90aea8625bd0f37
+      internalID: 1764548100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptimizedBuildings_6
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 244
+        width: 112
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cd347e69f28fe46bac872945d26a0b
+      internalID: -2130131695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptimizedBuildings_7
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 220
+        width: 112
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3df31c130760d47bd492943d2783d5
+      internalID: 938517823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptimizedBuildings_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 156
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67b10a64a0f224419c60899ad2d03d4
+      internalID: 1963901596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptimizedBuildings_9
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 156
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdb352567221ac428c6bce737bdfba6
+      internalID: 1212016602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptimizedBuildings_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 20
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb82ccfe0b7636c458d0a13a72ec80e1
+      internalID: -1175768035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptimizedBuildings_11
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 38
+        width: 96
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b7f2dd570d270459a690333567d3ca
+      internalID: -1266451948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptimizedBuildings_12
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 26
+        width: 88
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3a8b1ac569cec47aa146b540442cb3
+      internalID: -64315878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      OptimizedBuildings_0: 571688106
+      OptimizedBuildings_1: 1451507150
+      OptimizedBuildings_10: -1175768035
+      OptimizedBuildings_11: -1266451948
+      OptimizedBuildings_12: -64315878
+      OptimizedBuildings_2: -743153305
+      OptimizedBuildings_3: -1345083685
+      OptimizedBuildings_4: 909138939
+      OptimizedBuildings_5: 1764548100
+      OptimizedBuildings_6: -2130131695
+      OptimizedBuildings_7: 938517823
+      OptimizedBuildings_8: 1963901596
+      OptimizedBuildings_9: 1212016602
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
