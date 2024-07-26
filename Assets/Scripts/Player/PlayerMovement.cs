@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
+
         initialSpeed = speed;
     }
 
