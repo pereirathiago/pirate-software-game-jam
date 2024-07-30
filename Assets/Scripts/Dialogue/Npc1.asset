@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f5e0b40981dbd4eaef2cd5e657ec34, type: 3}
+  m_Name: Npc1
+  m_EditorClassIdentifier: 
+  actor: {fileID: 0}
+  actorName: 
+  speakerSprite: {fileID: 0}
+  sentencePortuguese: 
+  sentenceEnglish: 
+  dialogues:
+  - actorName: teste
+    profile: {fileID: 2002019692, guid: 8e8a4642e22ca634c9b396dfb2485243, type: 3}
+    sentence:
+      portuguese: teste
+      english: test
+  - actorName: t
+    profile: {fileID: 0}
+    sentence:
+      portuguese: t
+      english: t
