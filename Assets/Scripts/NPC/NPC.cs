@@ -13,10 +13,12 @@ public class NPC : MonoBehaviour
     [SerializeField]
     private List<Transform> paths = new List<Transform>();
 
+    public float Speed { get => speed; set => speed = value; }
+
     // Start is called before the first frame update
     void Start()
     {
-        initialSpeed = speed;
+        initialSpeed = Speed;
     }
 
     // Update is called once per frame
@@ -24,14 +26,14 @@ public class NPC : MonoBehaviour
     {
         if(DialogueControl.instance.IsShowing)
         {
-            speed = 0;
+            Speed = 0;
         }
         else
         {
-            speed = initialSpeed;
+            Speed = initialSpeed;
         }
 
-        transform.position = Vector2.MoveTowards(transform.position, paths[index].position, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, paths[index].position, Speed * Time.deltaTime);
         
         if(Vector2.Distance(transform.position, paths[index].position) < 0.1f)
         {

@@ -27,6 +27,8 @@ public class DialogueControl : MonoBehaviour
     private bool isShowing;
     private int index;
     private string[] sentences;
+    private string[] actors;
+    private Sprite[] profiles;
 
     public static DialogueControl instance;
 
@@ -69,10 +71,13 @@ public class DialogueControl : MonoBehaviour
             {
                 index++;
                 speechText.text = "";
+                actorNameText.text = actors[index];
+                profileSprite.sprite = profiles[index];
                 StartCoroutine(TypeSentence());
             } else
             {
                 speechText.text = "";
+                actorNameText.text = "";
                 index = 0;
                 dialogueObj.SetActive(false);
                 sentences = null;
@@ -85,12 +90,16 @@ public class DialogueControl : MonoBehaviour
         }
     }
 
-    public void Speech(string[] txt)
+    public void Speech(string[] txt, string[] actorName, Sprite[] profile)
     {
         if(!IsShowing)
         {
             dialogueObj.SetActive(true);
             sentences = txt;
+            actors = actorName;
+            profiles = profile;
+            actorNameText.text = actors[index];
+            profileSprite.sprite = profiles[index];
             StartCoroutine(TypeSentence());
             IsShowing = true;
         }
